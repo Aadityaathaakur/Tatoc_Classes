@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7217" started-at="2018-06-27T11:39:12Z" finished-at="2018-06-27T11:39:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7217" started-at="2018-06-27T11:39:12Z" finished-at="2018-06-27T11:39:19Z">
+      <class name="TestAll">
+        <test-method status="PASS" signature="launch()[pri:0, instance:TestAll@675d3402]" name="launch" is-config="true" duration-ms="2451" started-at="2018-06-27T17:09:12Z" finished-at="2018-06-27T17:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="BasicBox()[pri:0, instance:TestAll@675d3402]" name="BasicBox" duration-ms="158" started-at="2018-06-27T17:09:14Z" finished-at="2018-06-27T17:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicBox -->
+        <test-method status="PASS" signature="testRedBox()[pri:0, instance:TestAll@675d3402]" name="testRedBox" duration-ms="146" started-at="2018-06-27T17:09:15Z" depends-on-methods="TestAll.BasicBox" finished-at="2018-06-27T17:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRedBox -->
+        <test-method status="PASS" signature="testGreenBox()[pri:0, instance:TestAll@675d3402]" name="testGreenBox" duration-ms="255" started-at="2018-06-27T17:09:15Z" depends-on-methods="TestAll.testRedBox" finished-at="2018-06-27T17:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGreenBox -->
+        <test-method status="PASS" signature="click_withoutrepaint()[pri:0, instance:TestAll@675d3402]" name="click_withoutrepaint" duration-ms="266" started-at="2018-06-27T17:09:15Z" depends-on-methods="TestAll.testGreenBox" finished-at="2018-06-27T17:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_withoutrepaint -->
+        <test-method status="PASS" signature="click_after_repaint()[pri:0, instance:TestAll@675d3402]" name="click_after_repaint" duration-ms="2840" started-at="2018-06-27T17:09:15Z" depends-on-methods="TestAll.click_withoutrepaint" finished-at="2018-06-27T17:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_after_repaint -->
+        <test-method status="PASS" signature="drag_And_drop_onposition()[pri:0, instance:TestAll@675d3402]" name="drag_And_drop_onposition" duration-ms="266" started-at="2018-06-27T17:09:18Z" depends-on-methods="TestAll.click_after_repaint" finished-at="2018-06-27T17:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drag_And_drop_onposition -->
+        <test-method status="PASS" signature="launchWithoutPopUpPage()[pri:0, instance:TestAll@675d3402]" name="launchWithoutPopUpPage" duration-ms="141" started-at="2018-06-27T17:09:18Z" depends-on-methods="TestAll.drag_And_drop_onposition" finished-at="2018-06-27T17:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWithoutPopUpPage -->
+        <test-method status="PASS" signature="launchPopUpPage()[pri:0, instance:TestAll@675d3402]" name="launchPopUpPage" duration-ms="438" started-at="2018-06-27T17:09:18Z" depends-on-methods="TestAll.launchWithoutPopUpPage" finished-at="2018-06-27T17:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPopUpPage -->
+        <test-method status="PASS" signature="cookieAddTest()[pri:0, instance:TestAll@675d3402]" name="cookieAddTest" duration-ms="228" started-at="2018-06-27T17:09:19Z" depends-on-methods="TestAll.launchPopUpPage" finished-at="2018-06-27T17:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieAddTest -->
+      </class> <!-- TestAll -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
