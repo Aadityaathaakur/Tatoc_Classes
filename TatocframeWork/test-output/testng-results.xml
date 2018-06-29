@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5496" started-at="2018-06-29T10:26:43Z" finished-at="2018-06-29T10:26:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5496" started-at="2018-06-29T10:26:43Z" finished-at="2018-06-29T10:26:48Z">
+      <class name="AllTestTatoc">
+        <test-method status="PASS" signature="L()[pri:0, instance:AllTestTatoc@1593948d]" name="L" is-config="true" duration-ms="10" started-at="2018-06-29T15:56:43Z" finished-at="2018-06-29T15:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- L -->
+        <test-method status="PASS" signature="Test001_Launch_Browser()[pri:0, instance:AllTestTatoc@1593948d]" name="Test001_Launch_Browser" duration-ms="2592" started-at="2018-06-29T15:56:43Z" finished-at="2018-06-29T15:56:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test001_Launch_Browser -->
+        <test-method status="PASS" signature="Test002_BasicBlock()[pri:0, instance:AllTestTatoc@1593948d]" name="Test002_BasicBlock" duration-ms="127" started-at="2018-06-29T15:56:45Z" finished-at="2018-06-29T15:56:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test002_BasicBlock -->
+        <test-method status="PASS" signature="Test003_CheckRedBox()[pri:0, instance:AllTestTatoc@1593948d]" name="Test003_CheckRedBox" duration-ms="120" started-at="2018-06-29T15:56:45Z" finished-at="2018-06-29T15:56:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test003_CheckRedBox -->
+        <test-method status="PASS" signature="Test004_check_For_Green_Box()[pri:0, instance:AllTestTatoc@1593948d]" name="Test004_check_For_Green_Box" duration-ms="239" started-at="2018-06-29T15:56:46Z" finished-at="2018-06-29T15:56:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test004_check_For_Green_Box -->
+        <test-method status="PASS" signature="Test005_Frame_Dungeon_Test()[pri:0, instance:AllTestTatoc@1593948d]" name="Test005_Frame_Dungeon_Test" duration-ms="259" started-at="2018-06-29T15:56:46Z" finished-at="2018-06-29T15:56:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test005_Frame_Dungeon_Test -->
+        <test-method status="PASS" signature="Test006_Frame_Dungeon_Pass()[pri:0, instance:AllTestTatoc@1593948d]" name="Test006_Frame_Dungeon_Pass" duration-ms="901" started-at="2018-06-29T15:56:46Z" finished-at="2018-06-29T15:56:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test006_Frame_Dungeon_Pass -->
+        <test-method status="PASS" signature="Test007_Drag_And_Drop()[pri:0, instance:AllTestTatoc@1593948d]" name="Test007_Drag_And_Drop" duration-ms="284" started-at="2018-06-29T15:56:47Z" finished-at="2018-06-29T15:56:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test007_Drag_And_Drop -->
+        <test-method status="PASS" signature="Test008_popup_launch_Error_Test()[pri:0, instance:AllTestTatoc@1593948d]" name="Test008_popup_launch_Error_Test" duration-ms="126" started-at="2018-06-29T15:56:47Z" finished-at="2018-06-29T15:56:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test008_popup_launch_Error_Test -->
+        <test-method status="PASS" signature="Test009_Launch_popUp_Menu()[pri:0, instance:AllTestTatoc@1593948d]" name="Test009_Launch_popUp_Menu" duration-ms="435" started-at="2018-06-29T15:56:47Z" finished-at="2018-06-29T15:56:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test009_Launch_popUp_Menu -->
+        <test-method status="PASS" signature="Test010_proceed_without_adding_cookie()[pri:0, instance:AllTestTatoc@1593948d]" name="Test010_proceed_without_adding_cookie" duration-ms="124" started-at="2018-06-29T15:56:48Z" finished-at="2018-06-29T15:56:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test010_proceed_without_adding_cookie -->
+        <test-method status="PASS" signature="Test011_Cookie_Handling()[pri:0, instance:AllTestTatoc@1593948d]" name="Test011_Cookie_Handling" duration-ms="244" started-at="2018-06-29T15:56:48Z" finished-at="2018-06-29T15:56:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test011_Cookie_Handling -->
+        <test-method status="FAIL" signature="closebrowser()[pri:0, instance:AllTestTatoc@1593948d]" name="closebrowser" is-config="true" duration-ms="0" started-at="2018-06-29T15:56:48Z" finished-at="2018-06-29T15:56:48Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at AllTestTatoc.closebrowser(AllTestTatoc.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- AllTestTatoc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

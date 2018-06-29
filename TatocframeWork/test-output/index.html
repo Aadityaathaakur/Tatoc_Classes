@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AllTestTatoc" hash-for-method="Test001_Launch_Browser">Test001_Launch_Browser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AllTestTatoc" hash-for-method="Test002_BasicBlock">Test002_BasicBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AllTestTatoc" hash-for-method="Test003_CheckRedBox">Test003_CheckRedBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AllTestTatoc" hash-for-method="Test004_check_For_Green_Box">Test004_check_For_Green_Box</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AllTestTatoc" hash-for-method="Test005_Frame_Dungeon_Test">Test005_Frame_Dungeon_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AllTestTatoc" hash-for-method="Test006_Frame_Dungeon_Pass">Test006_Frame_Dungeon_Pass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AllTestTatoc" hash-for-method="Test007_Drag_And_Drop">Test007_Drag_And_Drop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AllTestTatoc" hash-for-method="Test008_popup_launch_Error_Test">Test008_popup_launch_Error_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AllTestTatoc" hash-for-method="Test009_Launch_popUp_Menu">Test009_Launch_popUp_Menu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AllTestTatoc" hash-for-method="Test010_proceed_without_adding_cookie">Test010_proceed_without_adding_cookie</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AllTestTatoc" hash-for-method="Test011_Cookie_Handling">Test011_Cookie_Handling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AllTestTatoc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test001_Launch_Browser">
+                  </a> <!-- Test001_Launch_Browser -->
+                  <span class="method-name">Test001_Launch_Browser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test002_BasicBlock">
+                  </a> <!-- Test002_BasicBlock -->
+                  <span class="method-name">Test002_BasicBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test003_CheckRedBox">
+                  </a> <!-- Test003_CheckRedBox -->
+                  <span class="method-name">Test003_CheckRedBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test004_check_For_Green_Box">
+                  </a> <!-- Test004_check_For_Green_Box -->
+                  <span class="method-name">Test004_check_For_Green_Box</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test005_Frame_Dungeon_Test">
+                  </a> <!-- Test005_Frame_Dungeon_Test -->
+                  <span class="method-name">Test005_Frame_Dungeon_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test006_Frame_Dungeon_Pass">
+                  </a> <!-- Test006_Frame_Dungeon_Pass -->
+                  <span class="method-name">Test006_Frame_Dungeon_Pass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test007_Drag_And_Drop">
+                  </a> <!-- Test007_Drag_And_Drop -->
+                  <span class="method-name">Test007_Drag_And_Drop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test008_popup_launch_Error_Test">
+                  </a> <!-- Test008_popup_launch_Error_Test -->
+                  <span class="method-name">Test008_popup_launch_Error_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test009_Launch_popUp_Menu">
+                  </a> <!-- Test009_Launch_popUp_Menu -->
+                  <span class="method-name">Test009_Launch_popUp_Menu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test010_proceed_without_adding_cookie">
+                  </a> <!-- Test010_proceed_without_adding_cookie -->
+                  <span class="method-name">Test010_proceed_without_adding_cookie</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test011_Cookie_Handling">
+                  </a> <!-- Test011_Cookie_Handling -->
+                  <span class="method-name">Test011_Cookie_Handling</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/tmp/testng-eclipse-1738583537/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AllTestTatoc&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test001_Launch_Browser')
+data.setCell(0, 2, 'AllTestTatoc')
+data.setCell(0, 3, 2592);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Test006_Frame_Dungeon_Pass')
+data.setCell(1, 2, 'AllTestTatoc')
+data.setCell(1, 3, 901);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test009_Launch_popUp_Menu')
+data.setCell(2, 2, 'AllTestTatoc')
+data.setCell(2, 3, 435);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test007_Drag_And_Drop')
+data.setCell(3, 2, 'AllTestTatoc')
+data.setCell(3, 3, 284);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test005_Frame_Dungeon_Test')
+data.setCell(4, 2, 'AllTestTatoc')
+data.setCell(4, 3, 259);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test011_Cookie_Handling')
+data.setCell(5, 2, 'AllTestTatoc')
+data.setCell(5, 3, 244);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Test004_check_For_Green_Box')
+data.setCell(6, 2, 'AllTestTatoc')
+data.setCell(6, 3, 239);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Test002_BasicBlock')
+data.setCell(7, 2, 'AllTestTatoc')
+data.setCell(7, 3, 127);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Test008_popup_launch_Error_Test')
+data.setCell(8, 2, 'AllTestTatoc')
+data.setCell(8, 3, 126);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Test010_proceed_without_adding_cookie')
+data.setCell(9, 2, 'AllTestTatoc')
+data.setCell(9, 3, 124);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Test003_CheckRedBox')
+data.setCell(10, 2, 'AllTestTatoc')
+data.setCell(10, 3, 120);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test011_Cookie_Handling</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Lauched successfully | </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test008_popup_launch_Error_Test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Lauched successfully | </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test007_Drag_And_Drop</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Lauched successfully | </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test009_Launch_popUp_Menu</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Lauched successfully | </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test010_proceed_without_adding_cookie</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Lauched successfully | </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test004_check_For_Green_Box</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Lauched successfully | </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test005_Frame_Dungeon_Test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Lauched successfully | </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test003_CheckRedBox</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Lauched successfully | </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test001_Launch_Browser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Lauched successfully | </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test006_Frame_Dungeon_Pass</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Lauched successfully | </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test002_BasicBlock</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Application Lauched successfully | </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">AllTestTatoc</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">L</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Test001_Launch_Browser</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test002_BasicBlock</span>
+                <span class="method-start">2606 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test003_CheckRedBox</span>
+                <span class="method-start">2734 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test004_check_For_Green_Box</span>
+                <span class="method-start">2855 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test005_Frame_Dungeon_Test</span>
+                <span class="method-start">3095 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test006_Frame_Dungeon_Pass</span>
+                <span class="method-start">3355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test007_Drag_And_Drop</span>
+                <span class="method-start">4257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test008_popup_launch_Error_Test</span>
+                <span class="method-start">4545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test009_Launch_popUp_Menu</span>
+                <span class="method-start">4672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test010_proceed_without_adding_cookie</span>
+                <span class="method-start">5109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test011_Cookie_Handling</span>
+                <span class="method-start">5234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">5479 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

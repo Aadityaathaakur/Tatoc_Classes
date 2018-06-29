@@ -1,0 +1,277 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 29 15:56:43 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5496 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AllTestTatoc.closebrowser()'><b>closebrowser</b><br>Test class: AllTestTatoc</td>
+<td><div><pre>java.lang.NullPointerException
+	at AllTestTatoc.closebrowser(AllTestTatoc.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace353296011", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace353296011'><pre>java.lang.NullPointerException
+	at AllTestTatoc.closebrowser(AllTestTatoc.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>AllTestTatoc@1593948d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AllTestTatoc.Test001_Launch_Browser()'><b>Test001_Launch_Browser</b><br>Test class: AllTestTatoc<br/>
+<a href="#Output-2113748097" onClick='toggleBox("Output-2113748097", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2113748097" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2113748097">
+Application Lauched successfully | <br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>AllTestTatoc@1593948d</td></tr>
+<tr>
+<td title='AllTestTatoc.Test002_BasicBlock()'><b>Test002_BasicBlock</b><br>Test class: AllTestTatoc<br/>
+<a href="#Output-271379554" onClick='toggleBox("Output-271379554", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-271379554" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-271379554">
+Application Lauched successfully | <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>AllTestTatoc@1593948d</td></tr>
+<tr>
+<td title='AllTestTatoc.Test003_CheckRedBox()'><b>Test003_CheckRedBox</b><br>Test class: AllTestTatoc<br/>
+<a href="#Output-1209411469" onClick='toggleBox("Output-1209411469", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1209411469" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1209411469">
+Application Lauched successfully | <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>AllTestTatoc@1593948d</td></tr>
+<tr>
+<td title='AllTestTatoc.Test004_check_For_Green_Box()'><b>Test004_check_For_Green_Box</b><br>Test class: AllTestTatoc<br/>
+<a href="#Output-1097619701" onClick='toggleBox("Output-1097619701", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1097619701" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1097619701">
+Application Lauched successfully | <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>AllTestTatoc@1593948d</td></tr>
+<tr>
+<td title='AllTestTatoc.Test005_Frame_Dungeon_Test()'><b>Test005_Frame_Dungeon_Test</b><br>Test class: AllTestTatoc<br/>
+<a href="#Output-1714688478" onClick='toggleBox("Output-1714688478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1714688478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1714688478">
+Application Lauched successfully | <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>AllTestTatoc@1593948d</td></tr>
+<tr>
+<td title='AllTestTatoc.Test006_Frame_Dungeon_Pass()'><b>Test006_Frame_Dungeon_Pass</b><br>Test class: AllTestTatoc<br/>
+<a href="#Output-319426406" onClick='toggleBox("Output-319426406", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-319426406" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-319426406">
+Application Lauched successfully | <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>AllTestTatoc@1593948d</td></tr>
+<tr>
+<td title='AllTestTatoc.Test007_Drag_And_Drop()'><b>Test007_Drag_And_Drop</b><br>Test class: AllTestTatoc<br/>
+<a href="#Output-1862900975" onClick='toggleBox("Output-1862900975", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1862900975" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1862900975">
+Application Lauched successfully | <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>AllTestTatoc@1593948d</td></tr>
+<tr>
+<td title='AllTestTatoc.Test008_popup_launch_Error_Test()'><b>Test008_popup_launch_Error_Test</b><br>Test class: AllTestTatoc<br/>
+<a href="#Output-2066366456" onClick='toggleBox("Output-2066366456", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2066366456" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2066366456">
+Application Lauched successfully | <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>AllTestTatoc@1593948d</td></tr>
+<tr>
+<td title='AllTestTatoc.Test009_Launch_popUp_Menu()'><b>Test009_Launch_popUp_Menu</b><br>Test class: AllTestTatoc<br/>
+<a href="#Output-1099694603" onClick='toggleBox("Output-1099694603", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1099694603" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1099694603">
+Application Lauched successfully | <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>AllTestTatoc@1593948d</td></tr>
+<tr>
+<td title='AllTestTatoc.Test010_proceed_without_adding_cookie()'><b>Test010_proceed_without_adding_cookie</b><br>Test class: AllTestTatoc<br/>
+<a href="#Output-2016482777" onClick='toggleBox("Output-2016482777", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2016482777" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2016482777">
+Application Lauched successfully | <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>AllTestTatoc@1593948d</td></tr>
+<tr>
+<td title='AllTestTatoc.Test011_Cookie_Handling()'><b>Test011_Cookie_Handling</b><br>Test class: AllTestTatoc<br/>
+<a href="#Output-2030707995" onClick='toggleBox("Output-2030707995", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2030707995" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2030707995">
+Application Lauched successfully | <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>AllTestTatoc@1593948d</td></tr>
+</table><p>
+</body>
+</html>

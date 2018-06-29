@@ -1,0 +1,20 @@
+Name:								:Type:								:Value
+linkTextBasic:						:linkText:							:Basic Course
+redboxClass:						:class:								:redbox
+greenBoxCheck:						:class:								:greenbox
+withoutRepaint:						:xpath:								:/html/body/center/a[2]
+box1Save:							:id:								:answer
+box2Save:							:id:								:answer
+nextFrame:							:xpath:								:/html/body/center/a[1]
+proceedDungeon:						:xpath:								:/html/body/center/a[2]
+dragBoxId:							:id:								:dragbox
+dropboxId:							:id:								:dropbox
+DragClick:							:xpath:								:/html/body/div/div[2]/a
+popupProceed:						:xpath:								:/html/body/div/div[2]/a[2]
+afterPopupTitle:					:cssSelector:						:body > div > div.page > span
+launchPopup:						:linkText:							:Launch Popup Window
+popUpText:							:id:								:name
+txtSubmit:							:id:								:submit
+proceedCookie:						:xpath:								:/html/body/div/div[2]/a[2]
+generateToken:						:xpath:								:/html/body/div/div[2]/a[1]
+TokenValue:							:xpath:								://*[@id='token']
